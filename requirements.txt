@@ -1,0 +1,28 @@
+# LangChain stack
+langchain==0.2.16
+langchain-community==0.2.16
+langchain-core==0.2.38
+langchain-huggingface==0.0.3
+
+# UI
+streamlit==1.35.0
+
+# Document loading
+unstructured[html]==0.14.5
+
+# Vector store
+faiss-cpu==1.8.0
+
+# Embeddings
+sentence-transformers==3.0.1
+
+# LLM
+transformers==4.44.0
+bitsandbytes==0.43.3
+accelerate==0.33.0
+torch==2.4.0
+
+# Utilities
+python-magic==0.4.27
+tiktoken==0.7.0
+python-dotenv==1.0.0

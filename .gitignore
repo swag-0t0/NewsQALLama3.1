@@ -1,0 +1,48 @@
+# Virtual environments
+venv/
+.venv/
+env/
+env.bak/
+
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+#faiss embeddings
+faiss_store_Llama.pkl
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Editor/IDE
+.vscode/
+.idea/
+
+# Environment variables and secrets
+.env
+.venv
+
+# Streamlit
+.streamlit/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Large files
+*.pkl
+*.bin
+*.pth
+*.model
+*.pt
+
+# Cache/temp
+.cache/
+cache/
+*.pyc
+__pycache__/
+
